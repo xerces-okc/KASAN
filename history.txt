@@ -1,0 +1,78 @@
+1  ls
+    2  cd KASAN_MT
+    3  -al
+    4  ls-al
+    5  ls -al
+    6  cd KASAN_MT
+    7  Kasan_MT
+    8  cd Kasan_MT
+    9  ls
+   10  cd Desktop/Kasan_MT
+   11  mkdir KASAN
+   12  li
+   13  cd Desktop/Kasan_MT/KASAN
+   14  cd KASAN
+   15  cd ..
+   16  cd ..
+   17  cd ..
+   18  li
+   19  ;s
+   20  ls
+   21  ls -al
+   22  cd Desktop
+   23  mkdir KASAN
+   24  cd KASAN
+   25  touch readme.md
+   26  start readme.md
+   27  touch text.txt
+   28  rm text.txt
+   29  haker
+   30  git config --global user.name "xerces-okc"
+   31  git config --global user.name xerces-okc
+   32  git config --global user.name
+   33  git config --global user.email "edrianckasan123@gmail.com"
+   34  git config --global user.email
+   35  git init
+   36  cd .git
+   37  cd ..
+   38  ls
+   39  git status
+   40  git add
+   41  git commit -m first commit
+   42  git init
+   43  git status
+   44  git commit
+   45  git commit -m "first commit"
+   46  git status
+   47  git add
+   48  git add .
+   49  git commit
+   50  git status
+   51  git commit
+   52  git commit -m "first commit"
+   53  git branch -M main
+   54  git remote add origin https://github.com/xerces-okc/KASAN.git
+   55  git push -u origin main
+   56  git add .
+   57  git status
+   58  git add .
+   59  git commit -m "2nd Commit"
+   60  git init
+   61  git status
+   62  git add .
+   63  git status
+   64  git commit -m "2nd Commit"
+   65  git push
+   66  git add.
+   67  git add .
+   68  git status
+   69  git commit -m "2nd commit"
+   70  git branch -M main
+   71  git push
+   72  git status
+   73  git add .
+   74  git status
+   75  git commit -m "2nd commit"
+   76  git push -u origin main
+   77  touch histoty.txt
+   78  history
