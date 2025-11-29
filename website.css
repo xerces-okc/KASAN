@@ -1,0 +1,428 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+header {
+     background-color: #FAF0E6;
+     padding: 1.8em 0em;
+     display: flex;
+     justify-content: space-between;
+}
+.title {
+     margin: 1.8em 1em 0em 4em;
+     font-family: 'Courier New', monospace;
+     color: #382c1f;
+}
+header ul {
+     display: flex;
+     gap: 100px;
+     padding: 25px;
+     margin: 0em 5em 0em 5em;
+}
+header li {
+     list-style: none;
+     font-size: 2em;
+     font-family: 'Courier New', monospace;
+     color: #382c1f;
+     font-weight: bold;
+}
+header a {
+     text-decoration: none;
+}
+.holographic-card {
+     transition: all 0.5s ease;
+}
+.holographic-card:hover {
+     transform: scale(1.05);
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.holographic-card:hover::before {
+     opacity: 1;
+     transform: rotate(-45deg) translateY(100%);
+}
+.first-sect {
+     display: flex;
+     height: 83vh;
+     width: 100%;
+     background-image: url("https://forums.terraria.org/index.php?attachments/n-1-png.31583/");
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 1em 0em;
+}
+.first-left-sect {
+     margin-right: 4em;
+}
+.first-left-sect h1 {
+     font-size: 5em;
+     font-family: 'Courier New', monospace;
+     color: #382c1f;
+     margin: 1em 0em 0em 0.5em;
+}
+.first-left-sect img {
+     margin: 0em 0em 0em 2em;
+     height: 50vh;width: 50vh;
+}
+.first-right-sect {
+     display: flex;
+     gap: 7vh;
+     margin: 1em 0em;
+}
+.first-right-sect p{
+     font-size: 1.5em;
+     color: white;
+}
+.frsb1 {
+     width: 40vh;
+     height: 100%;
+     color: white;
+     background-image: url("/pictures/1.png");
+     border-radius: 2em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.frsb1 h1 {margin: 1em 0em 1em 1em;
+     font-family: 'Courier New', monospace;
+     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.frsb1 p {
+     margin: 1em;
+     text-align: center;
+     font-weight: bold;
+     font-family: 'Courier New', monospace;
+     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.frsb2 {
+     width: 40vh;
+     height: 90%;
+     color: white;
+     background-image: url("/pictures/1.png");
+     border-radius: 2em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.frsb2 h1 {
+     margin: 1em;
+     font-family: 'Courier New', monospace;
+     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.frsb2 p {
+     margin: 1em;
+     text-align: center;
+     font-weight: bold;
+     font-family: 'Courier New', monospace;
+     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.frsb3 {
+     color: white;
+     width: 40vh;
+     height: 80%;
+     background-image: url("/pictures/1.png");
+     border-radius: 2em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.frsb3 h1 {
+     margin: 1em;
+     font-family: 'Courier New', monospace;
+     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.frsb3 p {
+     margin: 1em;
+     font-weight: bold;
+     font-family: 'Courier New', monospace;
+     overflow-wrap: anywhere;
+     text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
+.second-sect h1 {
+     font-size: 4em;
+     font-family: 'Courier New', monospace;
+     text-align: center;
+     color: white;
+     margin: 1.5vh 0vh 1.5vh 0vh;
+}
+.second-sect {
+     height: 100vh;
+     width: 100%;
+     background-image: url("https://forums.terraria.org/index.php?attachments/n-4-png.31586/");
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.second-top-sect {
+     border-radius: 2em;
+     width: 95%;
+     padding: 1.5em;
+     background-color: #362238;
+}
+.second-top-sect h2 {
+     font-family: 'Courier New', monospace;
+     margin-bottom: 0em 1em 1em 1em;
+     color: white;
+     margin-bottom: 1vh;
+}
+.projects {
+     display: flex;
+     gap: 20px;
+     text-align: center;
+     font-size: 1em;
+     font-family: 'Courier New', monospace;
+}
+.fip {
+     border-color: #382c1f;
+     border-radius: 1em;
+     padding: 1em;width: 25%;
+     background-color: white;
+}
+.fip img {
+     border-style: solid;
+     width: 100%;
+     height: 27.5vh;
+}
+.sp {
+     border-color: #382c1f;
+     border-radius: 1em;
+     padding: 1em;width: 25%;
+     background-color: white;
+}
+.sp img {
+     border-style: solid;
+     width: 100%;
+     height: 27.5vh;
+}
+.tp {
+     border-color: #382c1f;
+     border-radius: 1em;padding: 1em;
+     width: 25%;
+     background-color: white;
+}
+.tp img {
+     border-style: solid;
+     width: 100%;
+     height: 27.5vh;
+}
+.fop {
+     border-color: #382c1f;
+     border-radius: 1em;
+     padding: 1em;width: 25%;
+     background-color: white;
+}
+.fop img {
+     border-style: solid;
+     width: 100%;
+     height: 27.5vh;
+}
+.second-bottom-sect {
+     width: 97.5%;
+     display: flex;
+     margin-top: 3vh;
+     gap: 10vh;
+}
+.educBG {
+     width: 65%;
+     height: 42vh;
+     border-radius: 2em;
+     background-color: #362238;
+}
+.educBG h2 {
+     font-family: 'Courier New', monospace;
+     margin: 1em 0em 0em 1em;
+     color: white;
+}
+.skills {
+     width: 30%;
+     height: 42vh;
+     border-radius: 2em;
+     background-color: #362238;
+}
+.skills h2 {
+     font-family: 'Courier New', monospace;
+     margin: 1em 0em 0em 1em;
+     color: white;
+}
+.third-sect {
+     width: 100%;
+     height: 100vh;
+     background-image: url("https://i.redd.it/wnf73enylfe51.png");
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.third-sect h1 {
+     text-align: center;
+     color: white;
+     font-family: 'Courier New', monospace;
+     font-size: 4em;
+     padding: .5em 0em;
+}
+.hobbies {
+     display: flex;
+     justify-content: space-around;
+}
+.transparent-on-hover {
+     opacity: 1; 
+     transition: opacity 0.3s ease;
+}
+.transparent-on-hover:hover {
+     opacity: 0;
+}
+.firhob {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 17%;
+     height: 40vh;
+     background-color: #6385cf;
+     border-radius: 3em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.firhob img{
+     height: 36.5vh;
+     width: 90%;
+     border-radius: 2em;
+     z-index: 100;
+}
+.firhob p {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;}
+    .shob {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 17%;
+     height: 40vh;
+     background-color: #6385cf;
+     border-radius: 3em;
+}
+.shob img{
+     height: 36.5vh;
+     width: 90%;
+     border-radius: 2em;
+     z-index: 100;
+}
+.shob p {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;}
+    .thob {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 17%;
+     height: 40vh;
+     background-color: #6385cf;
+     border-radius: 3em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.thob img{
+     height: 36.5vh;
+     width: 90%;
+     border-radius: 2em;
+     z-index: 100;
+}
+.thob p {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;}
+    .fohob {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 17%;
+     height: 40vh;
+     background-color: #6385cf;
+     border-radius: 3em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.fohob img{
+     height: 36.5vh;
+     width: 90%;
+     border-radius: 2em;
+     z-index: 100;
+}
+.fohob p {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;}
+    .fifhob {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 17%;
+     height: 40vh;
+     background-color: #6385cf;
+     border-radius: 3em;
+     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.fifhob img{
+     height: 36.5vh;
+     width: 90%;
+     border-radius: 2em;
+     z-index: 100;
+}
+.fifhob p {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;}
+    .achievements {
+     margin-top: 2vh;
+     margin-left: 3vh;
+     display: flex;
+     width: 97%;
+     height: 40vh;
+     background-color: #6385cf;
+     border-radius: 3em;
+}
+.achievements h2 {
+     margin: 2.5vh 0vh 0vh 2.5vh;
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+}
+.fourth-sect {
+     height: 100vh;
+     width: 100%;
+}
+.contact-form-sect {
+     display: flex;
+}
+.contact-form-left {
+     height: 100vh;
+     width: 50%;
+     background-image: url('https://i.redd.it/mpza6zmtey891.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.contact-form-right {
+     height: 100vh;
+     width: 50%;
+     background-color: #222126;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     font-family: 'Courier New', Courier, monospace;
+}
+.contact-form-right h1 {
+     font-size: 4em;
+     position: relative;
+     right: 18%;
+}
+.contact-form {
+     height: 70vh;
+     width: 80%;
+     background-color: #e2e1e6;
+     position: relative;
+     top: 5%;
+}
+.contact-form form {
+     color: black;
+     padding: 5vh;
+}
+.firstF {
+     display: flex;
+     flex-direction: row;
+}
